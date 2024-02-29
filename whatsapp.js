@@ -1,6 +1,6 @@
 // Select the node that will be observed for mutations
 // window.webkit.messageHandlers.test.postMessage("Did finish loading");
-
+alert("Hello");
 const xhr = new XMLHttpRequest();
 xhr.open("GET", "https://web.whatsapp.com/", true);
 
